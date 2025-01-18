@@ -1,4 +1,37 @@
+/* General Styling */
+body {
+    font-family: Shantell Sans;
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: cadetblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-sm {
+    border: black solid 2px;
+}
+
+a {
+    color: white;
+}
+
+/* Project Page Styling */
 #carouselExampleIndicators {
     width: 50%;
     margin: auto;
+}
+
+.project-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
